@@ -1,0 +1,53 @@
+public class Contato {
+   private int numero, quant_recebidas, naolidas, enviei, quant_enviadas, all, totalRecebidas;
+   private String nome;
+   String[] mensagemQe = new String[5];
+   String[] mensagensEnviadas = new String[5]; 
+   String[] recebidas = new String[5];
+   public Contato(String nome, int numero){ 
+     this.nome = nome; 
+     this.numero = numero;
+      } 
+       public void enviar_mensagem (String mensagem){ 
+       this.mensagemQe[quant_enviadas] = mensagem; 
+       this.quant_enviadas++;
+       System.out.println("\nMensagem enviada");
+      } 
+       public void mensagensEnviadas() {
+          while(this.quant_enviadas > 0){ 
+            System.out.println("\nMensagens enviadas para "+this.nome+": \n\n"+this.mensagem_enviada[this.enviei]);
+             this.enviei++;
+             this.quant_enviadas--;
+      } 
+        } 
+         public void getQuant_naolidas() { 
+           System.out.println("\nMensagens não lidas de " + this.nome + ": " + this.quant_recebidas);
+            }
+             public void mensagensNaoLidas(){ 
+               System.out.println("\nMensagens enviadas por "+this.nome+": \n");
+                while(this.quant_recebidas > 0){
+                   System.out.println(this.mensagensEviadas[this.naolidas]); 
+                   this.naolidas++;
+                   this.quant_recebidas --; 
+             } 
+                    } public void receber_mensagem (String mensagem){
+                       this.mensagensEviadas [this.quant_recebidas] = mensagem;
+                        this.recebidas [this.quant_recebidas] = mensagem;
+                         this.quant_recebidas ++; 
+                         this.totalRecebidas = this.quant_recebidas; 
+                         } 
+                          public void mensagensRecebidas(){
+                             System.out.println("\nTodas as mensagens enviadas por "+this.nome+": \n");
+                              while(this.totalRecebidas > 0){
+                                 System.out.println(this.mensagensEviadas[this.all]);
+                                  this.all++;
+                                   this.totalRecebidas --; 
+                                   }
+                                     }
+                                      }
+             
+             
+             
+             
+             
+           
