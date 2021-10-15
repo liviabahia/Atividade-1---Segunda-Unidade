@@ -31,7 +31,7 @@ public class Contato {
                    this.quant_recebidas --; 
              } 
                     } public void receber_mensagem (String mensagem){
-                       this.mensagensEviadas [this.quant_recebidas] = mensagem;
+                       this.mensagensEnviadas [this.quant_recebidas] = mensagem;
                         this.recebidas [this.quant_recebidas] = mensagem;
                          this.quant_recebidas ++; 
                          this.totalRecebidas = this.quant_recebidas; 
