@@ -32,13 +32,13 @@ public class Paciente {
                       public String getTipoSanguineo (){ 
                         return this.tipoSanguineo; 
                         } 
-                         public void setCodigo(int cod){
+                         public void setCodigo(int codigo){
                             this.codigo = codigo; 
                             } 
                             public void setNome (String nome) { 
                               this.nome = nome; 
                               }
-                               public void setDataNascimento (String data) {
+                               public void setDataNascimento (String dataNasc) {
                                   this.dataNascimento = dataNasc; 
                                   } 
                                    public void setSexo (String sexo) { 
@@ -47,10 +47,10 @@ public class Paciente {
                                       public void setAlergia (String alergia) {
                                          this.alergia = alergia; 
                                          } 
-                                         public void setTipoSanguineo (String sgl) {
+                                         public void setTipoSanguineo (String tipoS) {
                                             this.tipoSanguineo = tipoS ;
                                              }
-                                              public void setPlanoSaude(String plano){
+                                              public void setPlanoSaude(String planoS){
                                                 this.planoSaude = planoS; 
                                                 }
                                                  }
