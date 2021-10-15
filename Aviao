@@ -7,10 +7,10 @@ class Aviao {
      this.velocidade = velocidade;
      }
      public int getAltitude(){
-        return altitude;
+        return this.altitude;
      } 
      public void getVelocidade(){ 
-        this.velocidade;
+        return this.velocidade;
      }
      public void setAltitude(){ 
         this.altitude = altitude;
