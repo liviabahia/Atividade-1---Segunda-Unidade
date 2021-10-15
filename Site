@@ -1,0 +1,16 @@
+public class Site { 
+  public static void main(String[] args){
+    
+     Produto brigadeiro = new Produto("Brigadeiro", 10, 3.00);
+     System.out.println("\nProduto: " + brigadeiro.getNome());
+     System.out.println("Preço: " + brigadeiro.getPreco()); 
+     brigadeiro.Comprar(1); 
+     System.out.println("Estoque: " + brigadeiro.getQuantidade()); 
+     brigadeiro.Comprar(1);
+     System.out.println("Estoque: " + brigadeiro.getQuantidade());
+     brigadeiro.Comprar(9); 
+     System.out.println("Estoque: " + brigadeiro.getQuantidade());
+      
+      
+      }
+       }
