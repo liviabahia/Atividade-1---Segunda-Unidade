@@ -1,0 +1,21 @@
+public class Post {
+  private String texto, link;
+  private int numCurtidas, numComp;
+  public Post(String texto, String link){
+    this.texto = texto;
+    this.link = link;
+  }
+   public void curtir(){
+     this.numCurtidas -=-1;
+   }
+   public void compartilhar(){
+     this.numComp -=- 1;
+  
+   }
+   public int getNumCurtidas(){
+     return this.numCurtidas;
+   }
+   public int getNumComp(){
+     return this.numComp;
+   }
+ }
