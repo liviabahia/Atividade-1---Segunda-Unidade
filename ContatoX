@@ -1,0 +1,18 @@
+public class ContatoX { 
+  public static void main(String[] args){ 
+    Contato Joana = new Contato("Joana ♡", 992722298); 
+    Joana.enviar_mensagem("Bom dia!"); 
+    Joana.getQuant_naolidas();
+    
+    Joana.receber_mensagem("Bom dia, como estás?"); 
+    Joana.receber_mensagem("Espero que você esteja bem"); 
+    Joana.receber_mensagem("Lembre-se: És muito importante!");
+    Joana.receber_mensagem("Mereces o universo de coisas boas, uma constelação e toda as felicitações realizadas.");
+    Joana.receber_mensagem("Tenho muito orgulho de você, acredito nos seus sonhos e sei que você é capaz de conquistar tudo que deseja."); 
+    Joana.getQuant_naolidas(); 
+    Joana.mensagensNaoLidas(); 
+    Joana.getQuant_naolidas();
+    }
+     }
+    
+    
