@@ -1,0 +1,32 @@
+public class Pacientep {
+public static void main(String[] args){
+      Pacientep p = new Paciente(1, "João Pedro de Carvalho", "28/06/2002", "Masculino", "Mais Vida", "dipirona", "AB");
+      System.out.println("\nCodigo:" + p.getCodigo());
+      System.out.println("Paciente:" + p.getNome());
+      System.out.println("Nascido em:" + p.getDataNascimento());
+      System.out.println("Sexo:" + p.getSexo());
+      System.out.println("Plano de Saúde:" + p.getPlanoSaude());
+      System.out.println("Alergia:" + p.getAlergia());
+      System.out.println("Tipo Sanguíneo:" + p.getTipoSanguineo() + "\n");
+     
+      p.setCodigo(2);
+      p.setNome("Maria Lina");
+      p.setDataNascimento("02/02/2002");
+      p.setSexo("Feminino");
+      p.setAlergia("Lírio");
+      p.setPlanoSaude("Happy");
+      p.setTipoSanguineo("O+");
+      
+      System.out.println("\nCodigo:" + p.getCodigo());
+      System.out.println("Paciente:" + p.getNome());
+      System.out.println("Nascido em:" + p.getDataNascimento());
+      System.out.println("Sexo:" + p.getSexo());
+      System.out.println("Plano de Saúde:" + p.getPlanoSaude());
+      System.out.println("Alergia:" + p.getAlergia());
+      System.out.println("Tipo Sanguíneo:" + p.getTipoSanguineo() + "\n");
+          
+      
+      
+      
+      }
+    }
