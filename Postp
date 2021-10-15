@@ -2,17 +2,17 @@ public class Postp {
   
    public static void main(String args[])
    { 
-     post w = new post("Café com leite ♡", "https://youtu.be/kjIgcgqqh38"); 
+    Post w = new Post("Café com leite ♡", "https://youtu.be/kjIgcgqqh38"); 
     w.curtir();
     w.curtir();
     w.curtir();
     
-    System.out.println("\nCurtidas:" +w.getNumCurtidas());
+    System.out.println("\nCurtidas:" + w.getNumCurtidas());
     
     w.compartilhar();
     w.compartilhar();
     
-    System.out.println("\nCompartilhamentos:" +w.getNumComp());
+    System.out.println("\nCompartilhamentos:" + w.getNumComp());
     
    }
  }
