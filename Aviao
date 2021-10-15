@@ -1,0 +1,30 @@
+class Aviao {
+   private int altitude;
+   private int velocidade;
+   
+   public Aviao(int altitude, int velocidade){
+     this.altitude = altitude;
+     this.velocidade = velocidade;
+     }
+     public int getAltitude(){
+        return altitude;
+     } 
+     public void getVelocidade(){ 
+        this.velocidade;
+     }
+     public void setAltitude(){ 
+        this.altitude = altitude;
+    
+        public void aumentarVelocidade(int aumento){
+           this.velocidade += aumento;
+            }
+             public void diminuirVelocidade(int aumento){
+                this.velocidade -= aumento;
+                 } 
+                 public void aumentarAltitude (int altitude){
+                    this.altitude -= altitude; 
+                    } 
+                    public void diminuirAltitude (int altitude){ 
+                      this.altitude -= altitude;
+                     } 
+                      }
