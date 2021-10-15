@@ -4,7 +4,7 @@ public class AviaoA {
    System.out.println("\nVelocidade: " + executiva.getVelocidade() + " Km/h");
    System.out.println("Altitude: " + executiva.getAltitude() + " Km\n");
    
-   executiva.diminuirAltitude(10); 
+   executiva.diminuirAltitude(1); 
    executiva.diminuirVelocidade(100);
    
    System.out.println("\nVelocidade: " + executiva.getVelocidade() + " Km/h");
